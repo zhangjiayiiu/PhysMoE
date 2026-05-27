@@ -9,3 +9,8 @@ data/
 *.pth
 *.ckpt
 .DS_Store
+.idea/
+.vscode/
+*.pyc
+outputs/
+checkpoints/
