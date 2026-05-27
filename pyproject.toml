@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "physmoe-pv"
+version = "0.1.0"
+description = "Best-effort PyTorch implementation of PhysMoE for PV forecasting under meteorological mutations."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "torch>=2.0",
+  "tqdm>=4.64",
+  "PyYAML>=6.0",
+]
+
+[tool.setuptools]
+packages = ["physmoe"]

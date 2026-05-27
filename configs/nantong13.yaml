@@ -1,0 +1,13 @@
+# Example command-line values for Nantong1.3-like data.
+# This file is for documentation. train.py currently uses argparse, not YAML.
+csv: ./data/Nantong1.3
+timestamp_col: date
+target_col: OT
+feature_cols: [OT, Ratio_0, Ratio_1, Ratio_2, Ratio_3]
+seq_len: 96
+pred_len: 32
+trend_kernel: 3
+tau: 0.05
+auto_physics: true
+lambda_cap: 0.1
+lambda_night: 0.1
